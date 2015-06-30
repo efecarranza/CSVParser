@@ -1,7 +1,7 @@
 <?php
 
-  $frpFile = 'FRPUNVA1.txt';
-  $outputFile = 'flat_price_master.csv';
+  $frpFile = 'input.txt';
+  $outputFile = 'output.csv';
 
   $fin = fopen($frpFile, 'r');
   $fout = fopen($outputFile, 'w');
